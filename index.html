@@ -1,3 +1,5 @@
+<link href="css/main.css" rel="stylesheet"/>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,93 +7,117 @@
   <title>Denys CV</title>
 </head>
 <body>
-<h1> <em> Denys Baranchykov  </em></h1>
-<img src='img/appleMini.png' width="120"/>
-<p>I am a result-oriented and motivated enthusiast with a sense of humor, adept at building and maintaining professional relationships.</p>
-<hr />
+<div class="cv-wrapper">
+  <div class="sidebar-wrapper">
+    <h1><em> Denys Baranchykov </em></h1>
+    <img class="avatar" src='img/appleMini.png'/>
+    <div class="introduceMyself">
+      <p>I am a result-oriented and motivated enthusiast with a sense of humor, adept at building and maintaining
+        professional relationships.</p>
+      <hr/>
+    </div>
 
-<h2> <em> Personal Information </em>  </h2>
+    <h2><em> Personal Information </em></h2>
+    <ul class="personalInfo" type="circle">
+      <li>Email: denysbaranchykov@gmail.com</li>
+      <li>Address: Kollataja 34</li>
+      <li>Phone number: +48 793782328</li>
+      <li>Date of Birth: 10, May 1995</li>
+      <li>Place of birth: Ukraine</li>
+      <li>Driving license: B</li>
+      <li>Linkedin</li>
+      linkedin.com/in/denys-baranchykov
+      <li>Github</li>
+      github.com/denysbaranchykov/social-network
+    </ul>
 
-<ul type="circle">
-  <li>Email</li>
-  <li>Address</li>
-  <li>Phone number</li>
-  <li>Date of Birth</li>
-  <li>Place of birth</li>
-  <li>Driving license</li>
-  <li>Linkedin</li>
-  linkedin.com/in/denys-baranchykov
-  <li>Github</li>
-  github.com/denysbaranchykov/social-network
-</ul>
+    <h2><em> Languages </em></h2>
 
-<h2> <em> Languages </em>  </h2>
+    <ul class="languages">
+      <li>English</li>
+      <li>Polish</li>
+      <li>Ukrainian</li>
+      <li>Russian</li>
+    </ul>
 
-<ul>
-  <li>English</li>
-  <li>Polish</li>
-  <li>Ukrainian</li>
-  <li>Russian</li>
-</ul>
+    <h2><em> Skills </em></h2>
+    <ul class="skills">
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>GIT</li>
+      <li>HTML5/CSS3</li>
+      <li>Redux</li>
+      <li>Redux-thunk</li>
+      <li>React-router</li>
+      <li>HOC</li>
+      <li>React hooks</li>
+    </ul>
 
-<h2> <em> Skills </em>  </h2>
-<ul>
-  <li>JavaScript</li>
-  <li>React</li>
-  <li>GIT</li>
-  <li>HTML5/CSS3</li>
-  <li>Redux</li>
-  <li>Redux-thunk</li>
-  <li>React-router</li>
-  <li>HOC</li>
-  <li>React hooks</li>
-</ul>
+    <h2><em> Interests </em></h2>
+    <ul class="interests" type="circle">
+      <li> Programming, hockey, swimming, gym</li>
+    </ul>
+  </div>
 
-<h2><em> Interests </em> </h2>
-<ul type="circle">
- <li> Programming, hockey, swimming, gym </li>
-</ul>
+  <div class="content-wrapper">
 
-<h2> <em>Work Experience</em> </h2>
-<table border="2">
-  <tr>
-    <th>Position</th>
-    <th>Company</th>
-    <th>Responsibilities</th>
-    <th>Period and location</th>
-  </tr>
-  <tr>
-    <td>Junior/Trainee Javascript/React developer</td>
-    <td>Freelance/Self-employed</td>
-    <td></td>
-    <td>October 2021 - Present, Wroclaw</td>
-  </tr>
-  <tr>
-    <td>Lifeguard</td>
-    <td>Aquapark Wroclaw</td>
-    <td></td>
-    <td>April 2022 - Present, Wroclaw</td>
-  </tr>
-  <tr>
-    <td>Bartender</td>
-    <td>Studio P1 The Next Level</td>
-    <td></td>
-    <td>November. 2020 - August 2022, Wroclaw</td>
-  </tr>
-  <tr>
-    <td>Sales Manager</td>
-    <td>Geeksters</td>
-    <td></td>
-    <td>October 2018 - October 2020, Kharkiv</td>
-  </tr>
-</table>
+    <h2><em>Work Experience</em></h2>
+    <table border="2" class="workExperienceText bg-green">
+      <tr>
+        <th>Position</th>
+        <th>Company</th>
+        <th class="responsibilities">Responsibilities</th>
+        <th>Period and location</th>
+      </tr>
+      <tr>
+        <td>Junior/Trainee Javascript/React developer</td>
+        <td>Freelance/self-employed</td>
+        <td>Small social network (pilot project) with basic styling in order
+          to learn React and its features.
+          <ul>
+            <li>created several pages such as: Profile, Users, Dialogs and Login;</li>
+            <li>added Redux, redux-thunk and reselect;</li>
+            <li>used both global and local store;</li>
+            <li>added WithAuthRedirect HOC;</li>
+            <li>worked both with functional and class components;</li>
+            <li>initialized Git-repository and pushed commits to GitHub.</li>
+          </ul>
+          Tech stack: JavaScript, React, Redux, HTML5/CSS3, GIT
+        </td>
+        <td>October 2021 - Present, Wroclaw</td>
+      </tr>
+      <tr class="workExperienceText">
+        <td>Lifeguard</td>
+        <td>Aquapark Wroclaw</td>
+        <td>Saving people lives, safety control.</td>
+        <td>April 2022 - Present, Wroclaw</td>
+      </tr>
+      <tr class="workExperienceText">
+        <td>Bartender</td>
+        <td>Studio P1 The Next Level</td>
+        <td>Making cocktails, coffee, alcoholic and non-alcoholick drinks.</td>
+        <td>November. 2020 - August 2022, Wroclaw</td>
+      </tr>
+      <tr class="workExperienceText">
+        <td>Sales Manager</td>
+        <td>Geeksters</td>
+        <td>Searching projects for programmers at my company,
+          searching programmers to the office, communication with clients.
+        </td>
+        <td>October 2018 - October 2020, Kharkiv</td>
+      </tr>
+    </table>
 
-<h2><em>Education and Qualifications</em></h2>
-Kharkiv National University of Civil Engineering and Architecture, 2012-2018.
+    <h2 class="educationTitle"><em>Education and Qualifications</em></h2>
+    <div class="education">
+      Kharkiv National University of Civil Engineering and Architecture, 2012-2018.
 
-<p><b>Master's Degree</b> in civil Engineering.</p>
-<hr/>
-<p><b>Lifeguard</b></p>
-WOPR, Wroclaw
+      <p><b>Master's Degree</b> in Civil engineering.</p>
+      <hr/>
+    </div>
+    <p><b>Lifeguard</b></p>
+    WOPR, Wroclaw
+  </div>
+</div>
 </body>
 </html>
