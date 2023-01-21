@@ -13,8 +13,11 @@ display: flex;
   margin-top: 10px;
 }
 
-.responsibilities {
-  padding: 0px 70px;
+.responsibilitiesTitle {
+  padding: 0px 60px;
+}
+.responsibilitiesContext {
+  font-size: 10px;
 }
 
 .workExperienceText {
