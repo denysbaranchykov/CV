@@ -9,7 +9,7 @@ display: flex;
 }
 
 .content-wrapper {
-  padding-left: 120px;
+  padding-left: 50px;
   margin-top: 10px;
 }
 
@@ -35,17 +35,18 @@ display: flex;
   padding-left: 30px;
 }
 
-.languages {
-  font-size: 1em;
-  list-style-image: url("https://icon-library.com/icon/small-telephone-icon-9.html");
-}
+
+
+
+
+
 
 /*fonts*/
-.otherFonts {
-  font-family: 'Caveat', cursive;
-  font-family: 'Cinzel', serif;
-  font-family: 'Pacifico', cursive;
-}
+/*.otherFonts {*/
+/*  font-family: 'Caveat', cursive;*/
+/*  font-family: 'Cinzel', serif;*/
+/*  font-family: 'Pacifico', cursive;*/
+/*}*/
 
 /*colors*/
   .bg-yellow {
